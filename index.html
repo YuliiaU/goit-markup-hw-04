@@ -23,8 +23,16 @@
                 </ul>
             </nav>
             <ul class="list contacts">
-                <li class="item"><a href="mailto:info@example.com " class="contacts-link mail">info@example.com</a></li>
-                <li class="item"><a href="tel:+380991111111 " class="contacts-link">+38 099 111 11 11</a></li>
+                <li class="item"><a href="mailto:info@example.com " class="contacts-link">
+                    <svg class="link-icon envelope">
+                        <use href="./images/sprite.svg#envelopehover1"></use>
+                    </svg>
+                    info@example.com</a></li>
+                <li class="item"><a href="tel:+380991111111 " class="contacts-link">
+                    <!-- <svg class="link-icon smartphone"> 
+                        <use href="../images/sprite.svg#smartphone1"></use>
+                    </svg> -->
+                    +38 099 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -86,16 +94,34 @@
                             <h3 class="name">Игорь Демьяненко</h3>
                             <p class="position">Product Designer</p>
                             <ul class="list social-links">
-                                <li> 
-                                    <a href="">
+                                <li class="item"> 
+                                    <a href="" class="links">
                                     <svg class="social-icon">
                                         <use href="./images/sprite.svg#instagram11"></use>
                                     </svg>
                                     </a> 
                                 </li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li class="item">
+                                    <a href="" class="links">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#twitter1"></use>
+                                        </svg>
+                                    </a> 
+                                </li>
+                                <li class="item">
+                                    <a href="" class="links">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#facebook11"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="" class="links">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#linkedin11"></use>
+                                        </svg>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </li>
@@ -104,6 +130,36 @@
                         <div class="command-content">
                             <h3 class="name">Ольга Репина</h3>
                             <p class="position">Frontend Developer</p>
+                            <ul class="list social-links">
+                                <li> 
+                                    <a href="">
+                                    <svg class="social-icon">
+                                        <use href="./images/sprite.svg#instagram11"></use>
+                                    </svg>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#twitter1"></use>
+                                        </svg>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#facebook11"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#linkedin11"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="command-card">
@@ -111,6 +167,36 @@
                         <div class="command-content">
                             <h3 class="name">Николай Тарасов</h3>
                             <p class="position">Marketing</p>
+                            <ul class="list social-links">
+                                <li> 
+                                    <a href="">
+                                    <svg class="social-icon">
+                                        <use href="./images/sprite.svg#instagram11"></use>
+                                    </svg>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#twitter1"></use>
+                                        </svg>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#facebook11"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#linkedin11"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </li>
                     <li class="command-card">
@@ -118,6 +204,36 @@
                         <div class="command-content">
                             <h3 class="name">Михаил Ермаков</h3>
                             <p class="position">UI Designer</p>
+                            <ul class="list social-links">
+                                <li> 
+                                    <a href="">
+                                    <svg class="social-icon">
+                                        <use href="./images/sprite.svg#instagram11"></use>
+                                    </svg>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#twitter1"></use>
+                                        </svg>
+                                    </a> 
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#facebook11"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg class="social-icon">
+                                            <use href="./images/sprite.svg#linkedin11"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>    
                     </li>
                 </ul>
@@ -125,15 +241,41 @@
         </section>
 
         <section class="section our-clients">
-            <h2 class="section-title">Постоянные клиенты</h2>
+            <div class="container">
+                <h2 class="section-title">Постоянные клиенты</h2>
             <ul class="list client-list">
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li class="item"><a href="#" class="link-customer">
+                    <svg class="icon-customer">
+                        <use href="./images/sprite.svg#logo1"></use>
+                    </svg>
+                </a></li>
+                <li class="item"><a href="#" class="link-customer">
+                    <svg class="icon-customer">
+                        <use href="./images/sprite.svg#logo2"></use>
+                    </svg>
+                </a></li>
+                <li class="item"><a href="#" class="link-customer">
+                    <svg class="icon-customer">
+                        <use href="./images/sprite.svg#logo3"></use>
+                    </svg>
+                </a></li>
+                <li class="item"><a href="#" class="link-customer">
+                    <svg class="icon-customer">
+                        <use href="./images/sprite.svg#logo4"></use>
+                    </svg>
+                </a></li>
+                <li class="item"><a href="#" class="link-customer">
+                    <svg class="icon-customer">
+                        <use href="./images/sprite.svg#logo5"></use>
+                    </svg>
+                </a></li>
+                <li class="item"><a href="#" class="link-customer">
+                    <svg class="icon-customer">
+                        <use href="./images/sprite.svg#logo6"></use>
+                    </svg>
+                </a></li>
             </ul>
+            </div>
         </section>
         
     </main>
