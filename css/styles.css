@@ -365,28 +365,33 @@ img {
 }
 .social-links .item {
     display: block;
+    margin-right: 10px;
 }
 
 .links {
+    display: flex;
     text-decoration: none;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.links:hover,
+.links:focus {
+    background-color: var(--accent);
+    --color3: var(--white);
 }
 
 .social-icon {
     display: flex;
-    width: 44px;
-    height: 44px;
-    margin-right: 10px;
-    justify-content: space-between;
-    align-items: center;
-    
-    --color1: var(--white);
-    --color2: var(--icon-color);
+    width: 20px;
+    height: 20px;
 }
 
-.social-links .social-icon:hover,
-.social-links .social-icon:focus {
-    --color1: var(--accent);
-    --color2: var(--white);
+.social-icon:hover {
+    fill: currentColor;
 }
 
 
@@ -491,19 +496,28 @@ img {
 }
 
 .join-list .edit {
-    --color1: var(--icon-color-edit);
-    --color2: var(--white);
+    background-color: var(--icon-color-edit);
+   border-radius: 50%;
     
 }
 
 .join-list .edit:hover {
-    --color1: var(--accent);
+    background-color: var(--accent);
+}
+
+.icon-edit {
+    --color3: var(--white);
 }
  
 
 .join-list {
     display: flex;
     
+}
+
+.join-list .item {
+   
+    margin-right: 10px;
 }
 
 .container-footer {
@@ -575,8 +589,14 @@ img {
 }
 
 .example {
+    display: block;
     text-decoration: none;
 }
+
+.card .example:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 
 .card {
     width: calc((100% - 60px) / 3);
@@ -584,9 +604,6 @@ img {
     margin-bottom: 30px;
 }
  
-.card:hover {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 
 .card:nth-child(3n) {
     margin-right: 0;
